@@ -1,0 +1,162 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    top: 100%;
+}
+
+.title {
+    position: absolute;
+    width: 409px;
+    height: 75px;
+    top: 102vh;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 104%;
+    /* identical to box height, or 75px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #162C4E;
+
+    opacity: 0.39;
+}
+
+ul {
+    
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    width: 90vw;
+    height: 80vh;
+    top: 115vh;
+}
+
+li {
+    height: inherit;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
+}
+
+.listItemWrapper {
+    height: inherit;
+    width: 85px;
+}
+
+.listItemWrapper div {
+    height: inherit;
+    width: inherit;
+}
+
+.textWrapper {
+    height: inherit;
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+}
+
+.textWrapper div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+}
+
+
+.textWrapper div h6 {
+    width: 500px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    /* identical to box height, or 32px */
+    /* White */
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+}
+
+.textWrapper p {
+    
+    width: 48px;
+    height: 40px;
+    
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    /* identical to box height, or 40px */
+
+    text-align: center;
+    letter-spacing: -0.03em;
+
+    color: #FFFFFF;
+}
+
+.extention {
+    height: inherit;
+    width: 683px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.expandedMenu {
+    width: 40%;
+    height: 100%;
+    background: rgba(18, 18, 18, 0.8);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.expandedMenu h6 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+
+
+/* White */
+
+    color: #FFFFFF;
+}
+
+.expandedMenu p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* identical to box height, or 27px */
+
+
+    color: rgba(255, 255, 255, 0.8);
+}

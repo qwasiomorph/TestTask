@@ -1,0 +1,113 @@
+.popUp {
+    z-index: 1;
+    position: absolute;
+    width: 320px;
+    height: 370px;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+    border: 1px solid rgba(11, 25, 30, 0.07);
+    border-radius: 2px;
+}
+
+.close1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 16px;
+    gap: 15px;
+    position: absolute;
+    left: 82.61%;
+    right: -0.11%;
+    top: 2.15%;
+    bottom: 82.8%;
+    border: #FFFFFF;
+    background: #FFFFFF;
+    border-radius: 2px;
+    transition: border 0.5s;
+}
+
+.close1:hover{
+    border: #213547 solid 1px;
+}
+
+.cross {
+    background-image: url('../assets/Close.png');
+    background-size: contain; /* or "contain" depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.close2 {
+    position: absolute;
+    left: 20%;
+    right: 17.5%;
+    top: 65.05%;
+    bottom: 18.82%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D4169;
+    color: #ffffff;
+    border: 1px solid transparent;
+    padding: 1em 2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    width: 200px;
+    height: 60px;
+    transition: border-color 0.25s;
+    border-radius: 40px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.close2:hover {
+    border-color: #1D4169;
+    color: #1D4169;
+    background-color: #ffffff;
+}
+
+.status {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 26.34%;
+    bottom: 63.71%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 104%;
+    /* or 37px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #162C4E;
+}
+
+.message {
+    position: absolute;
+    left: 7.5%;
+    right: 5%;
+    top: 44.09%;
+    bottom: 43.01%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+
+    color: rgba(0, 0, 0, 0.8);
+}

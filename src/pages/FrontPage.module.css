@@ -1,0 +1,104 @@
+
+.frontPage {
+    height: 100vh;
+}
+
+.hiddenY {
+    transform: translateY(-100%);
+    filter: blur(5px);
+    opacity: 0;
+    transition: all 1s;
+}
+
+.hiddenXm {
+    transform: translateX(-100%);
+    filter: blur(5px);
+    opacity: 0;
+    transition: all 1s;
+}
+
+.hiddenXp {
+    transform: translateX(100%);
+    filter: blur(5px);
+    opacity: 0;
+    transition: all 1s;
+}
+
+.shown {
+    transform: translateY(0);
+    transform: translateX(0);
+    filter: blur(0);
+    opacity: 1;
+}
+
+.Logo {
+    width: 160px;
+    height: 50px;
+    background-image: url('../assets/Logo.png');
+    background-size: contain; /* or "contain" depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+}
+
+.caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.frontContainer {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    right: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cornerContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 300px;
+    height: 300px;
+    translate: 0px -20px;
+    background-image: url('../assets/upper-left-corner.png');
+    background-size: contain; /* or "contain" depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.right {
+    width: 125px;
+    height: 150px;
+    background-image: url('../assets/upper-right-corner.png');
+    background-size: contain; /* or "contain" depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 786px) {
+    .left {
+        width: 150px;
+        height: 150px;
+    }
+    .right {
+        width: 75px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .frontContainer {
+        gap: 2px;
+    }
+}

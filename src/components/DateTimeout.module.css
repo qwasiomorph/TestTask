@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 588px;
+}
+
+.date {
+    min-width: 588px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 100%;
+}
+
+.title {
+    width: 588px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titleMember {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../assets/dateBG.png');
+    background-size: contain; /* or "contain" depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 132px;
+    height: 54px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+
